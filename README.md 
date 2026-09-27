@@ -1,0 +1,16 @@
+# Reconciliation Triage Practice
+
+Manual-first reconciliation triage learning prototype using synthetic invoice and bank-statement data.
+
+This project is built locally first and will only move to AWS after the required local tests and GitHub CI gates pass.
+
+The system does not connect to real banks, transfer money, post accounting entries, or automatically approve financial actions.
+
+AI is restricted to bounded exception classification and optional explanation of already-validated results.
+
+## Development Status
+
+Initial project skeleton established.
+
+Development will follow a local-first workflow. AWS deployment will be introduced only after local tests and GitHub CI gates pass.
+
